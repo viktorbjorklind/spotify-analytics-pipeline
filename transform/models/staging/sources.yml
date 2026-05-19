@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: spotify
+    database: neondb
+    schema: public
+    tables:
+      - name: played_tracks
