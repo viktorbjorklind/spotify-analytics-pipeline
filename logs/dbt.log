@@ -73,3 +73,18 @@ Happy modeling!
 [0m18:43:30.468362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028415112650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284158BDA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028412D03020>]}
 [0m18:43:30.468983 [debug] [MainThread]: Flushing usage events
 [0m18:43:31.265987 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:55:28.521578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BFCC5BB60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BFA570B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BFEFB39D0>]}
+
+
+============================== 18:55:28.526615 | 58f2e299-4192-462e-b716-ca82261d6f5c ==============================
+[0m18:55:28.526615 [info ] [MainThread]: Running with dbt=1.12.0-b1
+[0m18:55:28.527632 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\vikto\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:55:28.528158 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Coding\spotify-analytics-pipeline\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:55:28.529088 [debug] [MainThread]: Command `dbt run` failed at 18:55:28.528966 after 0.18 seconds
+[0m18:55:28.529383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BFEE129E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BFEF4A570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BFEF678A0>]}
+[0m18:55:28.529658 [debug] [MainThread]: Flushing usage events
+[0m18:55:29.314950 [debug] [MainThread]: An error was encountered while trying to flush usage events
