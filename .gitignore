@@ -4,3 +4,9 @@ __pycache__/
 *.pyc
 .DS_Store
 .cache
+
+# dbt
+transform/target/
+transform/dbt_packages/
+transform/logs/
+transform/.user.yml
